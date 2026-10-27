@@ -1,0 +1,41 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Datasets and downloaded archives (may be large or contain licensed data)
+Datasets/
+data/
+
+# Training artifacts, model weights, logs and TensorBoard event files
+outputs/
+runs/
+logs/
+events.out.tfevents.*
+*.pt
+*.pth
+*.ckpt
+
+# Kaggle credentials / local secrets
+kaggle.json
+.kaggle/
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db

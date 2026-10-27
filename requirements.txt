@@ -1,0 +1,7 @@
+# Core model/training dependency. For CUDA-specific builds, follow https://pytorch.org/get-started/locally/
+torch>=2.2
+Pillow>=10.0
+tensorboard>=2.14
+
+# Required only for downloading the Kaggle dataset; safe to keep installed in the project venv.
+kaggle>=1.6
